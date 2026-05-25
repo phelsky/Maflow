@@ -59,8 +59,6 @@ Como o site é construído em tecnologia web nativa, ele é extremamente leve e 
 
 ## 💡 Decisões de Arquitetura & Código (Para apresentação)
 
-Durante a apresentação para a gerência/diretoria, você pode destacar estes pontos fundamentais sobre a qualidade do seu código:
-
 *   **Centralização de Estilos (DRY - Don't Repeat Yourself)**: O uso de variáveis CSS no `:root` do arquivo `style.css` permite que qualquer mudança futura de cor (como o tom de vermelho ou a cor do texto) seja alterada em apenas um único lugar, refletindo em todo o site automaticamente.
 *   **Navegação Sem Reload**: A arquitetura SPA desenvolvida em JavaScript melhora expressivamente a experiência do usuário (UX), evitando a tela branca de recarregamento típica de sites tradicionais.
 *   **Validação Inline**: Validar campos no evento `blur` (quando o usuário sai de um campo) oferece um feedback imediato e agradável, melhorando a taxa de conversão e a qualidade das mensagens recebidas.
